@@ -15,7 +15,7 @@ name: Params-Validate-Array
 provides:
   Params::Validate::Array:
     file: lib/Params/Validate/Array.pm
-    version: 0.01
+    version: 0.02
 requires:
   Carp: 0
   Params::Validate: 1.07
@@ -23,4 +23,4 @@ requires:
   version: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02

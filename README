@@ -1,4 +1,4 @@
-Params-Validate-Array version 0.0.1
+Params-Validate-Array version 0.0.2
 
 Params::Validate::Array supplies a version of validate() 
 from module Params::Validate which returns the arguments as an list,

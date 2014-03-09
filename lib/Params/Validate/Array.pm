@@ -8,7 +8,7 @@ use base qw( Exporter );
 
 use vars qw($VERSION @EXPORT @EXPORT_OK %EXPORT_TAGS $DOC);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Params::Validate ();
 use Carp qw(confess);
@@ -68,16 +68,16 @@ sub validation_options {
 =head1 NAME
 
 Params::Validate::Array - provide an alternative version of Param::Validate's
-C<validate()> function which will return parameters as an list.
+C<validate()> function which will return parameters as a list.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =head1 SYNOPSIS
 
 This module's C<validate()> function is a replacement for the Params::Validate
-module's C<validate()> function, returning the argument list as an list,
+module's C<validate()> function, returning the arguments as a list,
 and not a hash as Params::Validate::validate() does.
 
 This replacement C<validate()> requires the argument descriptor to be an array
@@ -211,7 +211,7 @@ See http://dev.perl.org/licenses/ for more information.
 ##### SUBROUTINE INDEX #####
 #                          #
 #   gen by index_subs.pl   #
-#   on  5 Mar 2014 16:39   #
+#   on  9 Mar 2014 13:05   #
 #                          #
 ############################
 
