@@ -8,12 +8,10 @@ use base qw( Exporter );
 
 use vars qw($VERSION @EXPORT @EXPORT_OK %EXPORT_TAGS $DOC);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Params::Validate ();
 use Carp qw(confess);
-
-BEGIN { print "Params::Validate::Array\n" }
 
 # copy Params::Validate's EXPORT* constants
 @EXPORT = @Params::Validate::EXPORT;
@@ -72,7 +70,7 @@ C<validate()> function which will return parameters as a list.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =head1 SYNOPSIS
 
@@ -211,7 +209,7 @@ See http://dev.perl.org/licenses/ for more information.
 ##### SUBROUTINE INDEX #####
 #                          #
 #   gen by index_subs.pl   #
-#   on  9 Mar 2014 13:05   #
+#   on 14 Mar 2014 21:53   #
 #                          #
 ############################
 
